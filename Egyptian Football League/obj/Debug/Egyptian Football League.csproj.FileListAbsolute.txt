@@ -1,0 +1,23 @@
+c:\users\eslam\documents\visual studio 2013\Projects\Egyptian Football League\Egyptian Football League\bin\Debug\Egyptian Football League.exe.config
+c:\users\eslam\documents\visual studio 2013\Projects\Egyptian Football League\Egyptian Football League\bin\Debug\Egyptian Football League.exe
+c:\users\eslam\documents\visual studio 2013\Projects\Egyptian Football League\Egyptian Football League\bin\Debug\Egyptian Football League.pdb
+c:\users\eslam\documents\visual studio 2013\Projects\Egyptian Football League\Egyptian Football League\obj\Debug\Egyptian_Football_League.Form1.resources
+c:\users\eslam\documents\visual studio 2013\Projects\Egyptian Football League\Egyptian Football League\obj\Debug\Egyptian_Football_League.Properties.Resources.resources
+c:\users\eslam\documents\visual studio 2013\Projects\Egyptian Football League\Egyptian Football League\obj\Debug\Egyptian_Football_League.Team.resources
+c:\users\eslam\documents\visual studio 2013\Projects\Egyptian Football League\Egyptian Football League\obj\Debug\Egyptian Football League.csproj.GenerateResource.Cache
+c:\users\eslam\documents\visual studio 2013\Projects\Egyptian Football League\Egyptian Football League\obj\Debug\Egyptian Football League.exe
+c:\users\eslam\documents\visual studio 2013\Projects\Egyptian Football League\Egyptian Football League\obj\Debug\Egyptian Football League.pdb
+c:\users\eslam\documents\visual studio 2013\Projects\Egyptian Football League\Egyptian Football League\obj\Debug\Egyptian_Football_League.TeamEdit.resources
+C:\Users\Eslam\documents\visual studio 2013\Projects\Egyptian Football League\Egyptian Football League\obj\Debug\Egyptian_Football_League.AddTeam.resources
+C:\Users\Eslam\documents\visual studio 2013\Projects\Egyptian Football League\Egyptian Football League\obj\Debug\Egyptian_Football_League.AddPlayer.resources
+C:\Users\Eslam\documents\visual studio 2013\Projects\Egyptian Football League\Egyptian Football League\obj\Debug\Egyptian_Football_League.Competition.resources
+C:\Users\Eslam\documents\visual studio 2013\Projects\Egyptian Football League\Egyptian Football League\obj\Debug\Egyptian_Football_League.AddFixture.resources
+C:\Users\Eslam\documents\visual studio 2013\Projects\Egyptian Football League\Egyptian Football League\obj\Debug\Egyptian_Football_League.AddPosition.resources
+C:\Users\Eslam\documents\visual studio 2013\Projects\Egyptian Football League\Egyptian Football League\obj\Debug\Egyptian_Football_League.DisplayPosition.resources
+C:\Users\Eslam\documents\visual studio 2013\Projects\Egyptian Football League\Egyptian Football League\obj\Debug\Egyptian_Football_League.DisPosition.resources
+C:\Users\Eslam\documents\visual studio 2013\Projects\Egyptian Football League\Egyptian Football League\obj\Debug\Egyptian_Football_League.PlayersInFixture.resources
+C:\Users\Eslam\documents\visual studio 2013\Projects\Egyptian Football League\Egyptian Football League\obj\Debug\Egyptian_Football_League.FixturePlayers.resources
+C:\Users\Eslam\documents\visual studio 2013\Projects\Egyptian Football League\Egyptian Football League\obj\Debug\Egyptian_Football_League.Goals.resources
+C:\Users\Eslam\documents\visual studio 2013\Projects\Egyptian Football League\Egyptian Football League\obj\Debug\Egyptian_Football_League.GoalsData.resources
+C:\Users\Eslam\documents\visual studio 2013\Projects\Egyptian Football League\Egyptian Football League\obj\Debug\Egyptian_Football_League.DisFixture.resources
+C:\Users\Eslam\documents\visual studio 2013\Projects\Egyptian Football League\Egyptian Football League\obj\Debug\Egyptian_Football_League.ObFixture.resources

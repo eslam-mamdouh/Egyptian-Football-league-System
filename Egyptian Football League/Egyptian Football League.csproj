@@ -1,0 +1,242 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{B68CD4C8-CEDE-4BF2-8D60-54E1679CBA20}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Egyptian_Football_League</RootNamespace>
+    <AssemblyName>Egyptian Football League</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AddFixture.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddFixture.Designer.cs">
+      <DependentUpon>AddFixture.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddPlayer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddPlayer.Designer.cs">
+      <DependentUpon>AddPlayer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddPosition.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddPosition.Designer.cs">
+      <DependentUpon>AddPosition.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddTeam.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddTeam.Designer.cs">
+      <DependentUpon>AddTeam.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Competition.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Competition.Designer.cs">
+      <DependentUpon>Competition.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DisFixture.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DisplayPosition.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DisplayPosition.Designer.cs">
+      <DependentUpon>DisplayPosition.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DisPosition.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="DisPosition.Designer.cs">
+      <DependentUpon>DisPosition.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FixturePlayers.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="FixturePlayers.Designer.cs">
+      <DependentUpon>FixturePlayers.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Goals.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Goals.Designer.cs">
+      <DependentUpon>Goals.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GoalsData.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GoalsData.Designer.cs">
+      <DependentUpon>GoalsData.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ObFixture.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ObFixture.Designer.cs">
+      <DependentUpon>ObFixture.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PlayersInFixture.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PlayersInFixture.Designer.cs">
+      <DependentUpon>PlayersInFixture.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Team.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Team.Designer.cs">
+      <DependentUpon>Team.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TeamEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TeamEdit.Designer.cs">
+      <DependentUpon>TeamEdit.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AddFixture.resx">
+      <DependentUpon>AddFixture.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddPlayer.resx">
+      <DependentUpon>AddPlayer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddPosition.resx">
+      <DependentUpon>AddPosition.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddTeam.resx">
+      <DependentUpon>AddTeam.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Competition.resx">
+      <DependentUpon>Competition.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DisFixture.resx">
+      <DependentUpon>DisFixture.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DisplayPosition.resx">
+      <DependentUpon>DisplayPosition.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DisPosition.resx">
+      <DependentUpon>DisPosition.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FixturePlayers.resx">
+      <DependentUpon>FixturePlayers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Goals.resx">
+      <DependentUpon>Goals.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GoalsData.resx">
+      <DependentUpon>GoalsData.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ObFixture.resx">
+      <DependentUpon>ObFixture.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PlayersInFixture.resx">
+      <DependentUpon>PlayersInFixture.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Team.resx">
+      <DependentUpon>Team.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TeamEdit.resx">
+      <DependentUpon>TeamEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bg.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bg1.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\player.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\player1.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\team.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\team1.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\comp.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
